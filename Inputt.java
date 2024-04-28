@@ -10,7 +10,7 @@ public class Inputt {
 
         // int a = 234_000_000
         String name = input.next();
-        System.out.println("Your Name is : "+name);
+        System.out.println("Your Name is :  "+name);
 
 
     }
