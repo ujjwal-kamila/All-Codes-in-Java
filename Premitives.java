@@ -1,7 +1,8 @@
 public class Premitives {
-    // Premitive data types
+    // Premitive data types which we cannot break or divide into another data types even further 
     @SuppressWarnings("unused")
     public static void main(String[] args) {
+        //basic data types
         int roll_no = 21;
         char letter = 'u';
         float marks = 99.98f;
@@ -10,6 +11,7 @@ public class Premitives {
         // For larger decimal values 
         long  largerInteger = 6487512536L;
         boolean check = true;
+        //string is not
         String name = "Ujjwal";
 
 
