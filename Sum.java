@@ -15,8 +15,7 @@ public class Sum {
         System.out.println("Sum : " + sum);
 
 
-        //using float
-        12.12
+       
     }
 }
 
