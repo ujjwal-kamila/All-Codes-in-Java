@@ -6,10 +6,7 @@ public class sum {
         System.out.println("Sum is : "+sum);
 
         int mul = a * b  ;
-        System.out.println("Multiplication is : "+mul); 
-
-
-
+        System.out.println("Multiplication is : "+mul);
 
     }
     
