@@ -76,3 +76,36 @@ public class BankMain {
         scanner.close();
     }
 }
+
+
+/*
+ * 
+
+ public class BankMain {
+    public static void main(String[] args) {
+        // Hardcoded account details
+        String name = "John Doe";
+        String accountNumber = "123456789";
+        String accountType = "Savings";
+        double initialBalance = 5000.0;
+
+        BankAccount account = new BankAccount(name, accountNumber, accountType, initialBalance);
+
+        // Display initial account details
+        account.display();
+
+        // Hardcoded deposit and withdrawal amounts
+        double depositAmount = 2000.0;
+        System.out.println("\nDepositing: " + depositAmount);
+        account.deposit(depositAmount);
+
+        double withdrawAmount = 1500.0;
+        System.out.println("\nWithdrawing: " + withdrawAmount);
+        account.withdraw(withdrawAmount);
+
+        // Display final account details
+        account.display();
+    }
+}
+ * 
+ */
