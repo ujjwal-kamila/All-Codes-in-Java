@@ -44,7 +44,7 @@ class Rectangle implements GeoAnalyzer {
 public class GeoAnalyzerSol{
     public static void main(String[] args) {
         GeoAnalyzer circle = new Circle(4.5); // Runtime polymorphism
-        GeoAnalyzer rectangle = new Rectangle(5, 7); // Runtime polymorphism
+        GeoAnalyzer rectangle = new Rectangle(4, 6); // Runtime polymorphism
 
         System.out.println("Perimeter of Circle: " + circle.perimeter());   // Output: 28.27431
         System.out.println("Perimeter of Rectangle: " + rectangle.perimeter());  // Output: 24.0

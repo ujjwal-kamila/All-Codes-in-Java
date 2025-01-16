@@ -46,8 +46,8 @@ class Rectangle extends Geometry {
 
 public class GeometryArea {
     public static void main(String[] args) {
-        Geometry circle = new Circle(4.5); // Runtime polymorphism
-        Geometry rectangle = new Rectangle(5, 7); // Runtime polymorphism
+        Geometry circle = new Circle(4.7); // Runtime polymorphism
+        Geometry rectangle = new Rectangle(6, 9); // Runtime polymorphism
 
         System.out.println("Area of Circle: " + circle.area());        // Output: 63.61725
         System.out.println("Area of Rectangle: " + rectangle.area());  // Output: 35.0
