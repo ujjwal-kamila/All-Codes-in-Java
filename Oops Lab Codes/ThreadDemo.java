@@ -22,3 +22,26 @@ public class ThreadDemo {
         thread.start();
     }
 }
+
+
+
+
+/*
+ * 
+ * 
+// Implementing Runnable interface
+class MyThread implements Runnable {
+    public void run() {
+        System.out.println("Thread is running...");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyThread obj = new MyThread(); // Create an instance of MyThread
+        Thread t = new Thread(obj);    // Create a Thread object and pass obj
+        t.start();  // Start the thread
+    }
+}
+
+ */
